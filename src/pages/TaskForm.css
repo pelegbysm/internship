@@ -1,0 +1,67 @@
+.task-form {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .priority-selector,
+  .status-selector {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+    width: 100%;
+  }
+  
+  .priority-selector ion-item,
+  .status-selector ion-item {
+    flex: 1;
+    --inner-padding-end: 0;
+  }
+  
+  .tags-container {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .tags-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 10px;
+    padding: 0 16px;
+  }
+  
+  .new-tag-input {
+    display: flex;
+    align-items: center;
+    background: var(--ion-color-light);
+    border-radius: 16px;
+    padding: 0 8px;
+    margin-top: 8px;
+  }
+  
+  .new-tag-input ion-input {
+    flex: 1;
+    --padding-start: 8px;
+  }
+  
+  .form-footer {
+    margin-top: 24px;
+    padding: 0 16px;
+  }
+  
+  .location-item {
+    --padding-start: 16px;
+    --padding-end: 16px;
+    --padding-top: 12px;
+    --padding-bottom: 12px;
+  }
+  
+  .location-item ion-label h2 {
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  
+  .location-item ion-label p {
+    font-size: 0.9rem;
+    color: var(--ion-color-medium);
+  }

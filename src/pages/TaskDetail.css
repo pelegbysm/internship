@@ -1,0 +1,140 @@
+.task-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 16px;
+  }
+  
+  .task-header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+    flex: 1;
+  }
+  
+  .status-badge {
+    font-size: 0.9rem;
+    padding: 6px 10px;
+    border-radius: 16px;
+  }
+  
+  .task-description {
+    font-size: 1rem;
+    line-height: 1.5;
+    white-space: pre-wrap;
+  }
+  
+  .task-info-grid {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: var(--ion-color-light);
+    height: 100%;
+  }
+  
+  .info-item ion-icon {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .info-label {
+    font-size: 0.8rem;
+    color: var(--ion-color-medium);
+    margin-bottom: 4px;
+  }
+  
+  .info-value {
+    font-size: 1rem;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .location-section {
+    width: 100%;
+  }
+  
+  .location-header {
+    margin-bottom: 10px;
+  }
+  
+  .map-container {
+    margin-top: 10px;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .reminder-item {
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .reminder-item ion-icon {
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+  
+  .reminder-item .info-label {
+    margin-bottom: 0;
+    flex: 1;
+    text-align: right;
+    margin-right: 12px;
+  }
+  
+  .toggle-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .tags-section,
+  .actions-section {
+    margin-top: 20px;
+  }
+  
+  .tags-section h2,
+  .actions-section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 12px;
+    color: var(--ion-color-dark);
+  }
+  
+  .tags-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  
+  .quick-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  ion-fab-button {
+    --box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .overdue-date {
+    color: var(--ion-color-danger);
+    position: relative;
+  }
+  
+  .overdue-badge {
+    background-color: var(--ion-color-danger);
+    color: white;
+    font-size: 0.7rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+    margin-right: 6px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+  }

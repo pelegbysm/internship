@@ -1,0 +1,30 @@
+.theme-toggle-item {
+    --padding-start: 16px;
+    --padding-end: 16px;
+    --padding-top: 12px;
+    --padding-bottom: 12px;
+    --background: transparent;
+    margin: 10px 0;
+  }
+  
+  .theme-icon {
+    font-size: 1.2rem;
+    transition: opacity 0.3s ease, color 0.3s ease;
+  }
+  
+  .theme-icon.active {
+    opacity: 1;
+    color: var(--ion-color-primary);
+  }
+  
+  .theme-icon.dimmed {
+    opacity: 0.5;
+  }
+  
+  ion-toggle {
+    transition: background-color 0.3s ease;
+    --background: var(--ion-color-medium);
+    --background-checked: var(--ion-color-primary);
+    --handle-background: var(--ion-color-light);
+    --handle-background-checked: #ffffff;
+  }
